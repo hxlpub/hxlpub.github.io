@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"hxlpub.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="1.本篇目的：着重介绍C的几个重要特性一级底层原理 2.本篇的结构  第一部分：几个重要的特性与底层原理 第二部分：结合开源项目特性应用 第三部分：良好的编码风格（附录）   第一部分：几个重要的特性与底层原理   预处理器几个特性  #include指令：文件包含，该指令所在的行都将被替换为由文件名指定的文件的内容，一种将所有声明捆绑在一起的较好的办法，保证所有的源文件有相同的定义与变量声明 ​">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C 的几个重要特性">
+<meta property="og:url" content="https://hxlpub.github.io/2021/11/06/c_c++/index.html">
+<meta property="og:site_name" content="linhongxun&#39;s blog">
+<meta property="og:description" content="1.本篇目的：着重介绍C的几个重要特性一级底层原理 2.本篇的结构  第一部分：几个重要的特性与底层原理 第二部分：结合开源项目特性应用 第三部分：良好的编码风格（附录）   第一部分：几个重要的特性与底层原理   预处理器几个特性  #include指令：文件包含，该指令所在的行都将被替换为由文件名指定的文件的内容，一种将所有声明捆绑在一起的较好的办法，保证所有的源文件有相同的定义与变量声明 ​">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A71.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A72.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A73.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A74.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A75.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A76.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A77.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A78.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A79.jpg?raw=true">
+<meta property="og:image" content="https://github.com/hxlpub/imgs/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%87%BD%E6%95%B0.png?raw=true">
+<meta property="article:published_time" content="2021-11-06T03:55:07.000Z">
+<meta property="article:modified_time" content="2022-01-02T05:12:22.000Z">
+<meta property="article:author" content="linhongxun">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A71.jpg?raw=true">
+
+<link rel="canonical" href="https://hxlpub.github.io/2021/11/06/c_c++/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>C 的几个重要特性 | linhongxun's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">linhongxun's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://hxlpub.github.io/2021/11/06/c_c++/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="linhongxun">
+      <meta itemprop="description" content="沉淀技术">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="linhongxun's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C 的几个重要特性
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-11-06 11:55:07" itemprop="dateCreated datePublished" datetime="2021-11-06T11:55:07+08:00">2021-11-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-01-02 13:12:22" itemprop="dateModified" datetime="2022-01-02T13:12:22+08:00">2022-01-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">服务端</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/C-C/" itemprop="url" rel="index"><span itemprop="name">C_C++</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/C-C/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9AC/" itemprop="url" rel="index"><span itemprop="name">基础篇：C</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/11/06/c_c++/" class="post-meta-item leancloud_visitors" data-flag-title="C 的几个重要特性" title="Views">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/11/06/c_c++/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/11/06/c_c++/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>1.本篇目的：着重介绍C的几个重要特性一级底层原理</p>
+<p>2.本篇的结构</p>
+<ul>
+<li>第一部分：几个重要的特性与底层原理</li>
+<li>第二部分：结合开源项目特性应用</li>
+<li>第三部分：良好的编码风格（附录）</li>
+</ul>
+<hr>
+<center>第一部分：几个重要的特性与底层原理</center>
+
+<ol>
+<li><p>预处理器几个特性</p>
+<ul>
+<li><p>#include指令：文件包含，该指令所在的行都将被替换为由文件名指定的文件的内容，一种将所有声明捆绑在一起的较好的办法，保证所有的源文件有相同的定义与变量声明</p>
+<p>​    #include “文件” ：先在源文件所在位置查找该文件，如果在该位置未找到，再根据相应规则查找</p>
+<p>​    #include &lt;文件&gt; ：根据相应规则查找</p>
+</li>
+<li><p>#define指令：宏替换，#define 名字 替换文本</p>
+</li>
+<li><p>宏<br>：将函数定义为宏可避免调用函数时所需的运行时开销</p>
+</li>
+</ul>
+</li>
+<li><p>变量</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>作用域</th>
+<th>存储位置</th>
+<th>生命周期</th>
+<th>特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static</td>
+<td>所在文件（static 外部变量）、 所在函数（static 局部变量）</td>
+<td>定义后一直占据存储空间</td>
+<td></td>
+<td>只被初始化一次（程序执行前），初始化表达式是常量表达式，没有初始化表达式的元素被初始化为0</td>
+</tr>
+<tr>
+<td>register</td>
+<td>局部变量 、函数形参</td>
+<td>寄存器</td>
+<td></td>
+<td>程序更小，执行速度更快</td>
+</tr>
+<tr>
+<td>外部变量external</td>
+<td></td>
+<td></td>
+<td></td>
+<td>只被初始化一次（程序执行前），初始化表达式必须是常量表达式，没有初始化表达式的元素被初始化为0;</td>
+</tr>
+<tr>
+<td>局部变量</td>
+<td>函数内部</td>
+<td></td>
+<td>函数被调用期间</td>
+<td>每次进入函数或程序块都初始化，没有初始化表达式的元素被初始化为0</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>指针</p>
+<p>​    运算符&amp;：取地址，只能应用于内存中对象，即变量与数组元素，不能作用与表达式、常量、或register变量<br>​    运算符<em>：间接寻址或间接引用运算符，作用于指针时，将访问指针所指向的对象。<br>​    &amp;、</em>优先级高于算术运算符<br>​    指针变量可以相互赋值，指向相同的对象</p>
+<ul>
+<li>1）指针与数组 ：</li>
+</ul>
+<p>​    一般，指针编写的程序比用数组下标编写的程序执行速度快<br>​    一个通过数组和下标实现的表达式可等价地通过指针和偏移量实现</p>
+<p>​    char s[] == char *s  、&amp;a[2] == a+2 （a数组）</p>
+<ul>
+<li><p>2）特性</p>
+<ul>
+<li>某些情况下对指针进行比较运算（如指针p、q指向同一个数组的成员）</li>
+<li>指针可以和整数相加或相减</li>
+<li>指针的算术运算具有一致性：所有的指针运算都会自动考虑它所指向的对象的长度</li>
+<li>有效的指针运算：<ul>
+<li>相同类型指针之间赋值运算</li>
+<li>指针同整数之间的加法减法</li>
+<li>指向相同数组中元素的两个指针间的减法和比较运算</li>
+<li>指针赋值为0或指针与0之间的比较运算</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>3）指针数组、指针的指针</p>
+<ul>
+<li><p>如char *lineptr[10]</p>
+<ul>
+<li>初始化：如，static char *name[] = {“xiaoming”,”xiaoqiang”}</li>
+</ul>
+</li>
+<li><p>指针数组优点：数组的每一个元素的长度可以不同</p>
+</li>
+</ul>
+</li>
+<li><p>4)函数指针</p>
+<p> K&amp;R P99</p>
+</li>
+</ul>
+</li>
+<li><p>运算符优先级</p>
+<p>1）优先级1：数组下标[]<strong>，</strong>圆括号( )<strong>，</strong>成员选择（对象）.，成员选择（指针）-&gt;</p>
+<p>结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A71.jpg?raw=true" alt="优先级1"></p>
+<p>2）优先级2：负号运算符-，强制类型转换，自增运算符++，自减运算符–，取值运算符，取地址运算符&amp;，逻辑非运算符！，按位取反运算符~，长度运算sizeof符，结合方向为右到左</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A72.jpg?raw=true" alt="优先级2"></p>
+<p>3）优先级3：除/，乘*，余数%，结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A73.jpg?raw=true" alt="优先级3"></p>
+<p>4）优先级4：加+，减-，结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A74.jpg?raw=true" alt="优先级4"></p>
+<p>5）优先级5：左移&lt;&lt;，右移&gt;&gt;，结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A75.jpg?raw=true" alt="优先级5"></p>
+<p>6）优先级6：大于&gt;，大于等于&gt;=，小于&lt;，小于等于&lt;=，结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A76.jpg?raw=true" alt="优先级6"></p>
+<p>7）优先级7：等于==，不等于!=，结合方向为左到右</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A77.jpg?raw=true" alt="优先级7"></p>
+<p>8）优先级8：级别先后为，按位与&amp;，按位异或^，按位或| ，逻辑与&amp;&amp;，逻辑或|| 条件运算符?:，注意得是条件运算结合方向为右到左</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A78.jpg?raw=true" alt="优先级8"></p>
+<p>9）优先级9：赋值运算符=，除后赋值/=，乘后赋值*=，取模后赋值%=，加后赋值+=，减后赋值-=，左移后赋值&lt;&lt;=，右移后赋值&gt;&gt;=，按位与后赋值&amp;=，按位异或后赋值^=，按位或后赋值|=，结合方向为右到左</p>
+<p><img src="https://github.com/hxlpub/imgs/blob/master/%E4%BC%98%E5%85%88%E7%BA%A79.jpg?raw=true" alt="优先级9"></p>
+</li>
+<li><p>结构</p>
+<p>struct point {</p>
+<p>​    int x;</p>
+<p>​    int y;</p>
+<p>};</p>
+<p>声明：struct {int x,int y} x,y,z; #分配存储空间</p>
+<p>​            struct point pt;</p>
+<p>初始化：</p>
+<p>​            struct point maxpt = {320, 200};</p>
+<p>成员：maxpt.x</p>
+<p>​           maxpt.y</p>
+<p>嵌套：</p>
+<p>​            struct rect {</p>
+<p>​                struct point pt1;</p>
+<p>​                struct point pt2;            </p>
+<p>​            };</p>
+<p>​            struct rect screen;</p>
+<p>​            成员： screen.pt1.x</p>
+<p>合法操作：</p>
+<p>​            1.作为一个整体赋值和赋值</p>
+<p>​            2.通过&amp;取地址</p>
+<p>​            3.访问其成员</p>
+<p>结构指针：</p>
+<p>​            struct  point  *ptrstr;</p>
+<p>​            ptrstr -&gt; x</p>
+<p>结构数组</p>
+<p>​             struct key {<br>​                   char *word;<br>​                   int count;</p>
+<pre><code>           &#125; keytab[] = &#123;
+
+               &#123; &quot;auto&quot;, 0 &#125;,
+              &#123; &quot;break&quot;, 0 &#125;,
+              &#123; &quot;case&quot;, 0 &#125;            
+</code></pre>
+<p>​                }</p>
+<p>结构指针</p>
+<p>​    关键字统计</p>
+<p>自引用结构</p>
+<p>​    K$R P116 ex:统计输入所有单词出现频次（二叉树）</p>
+<p>表查找</p>
+<p>类型定义（typedef）</p>
+<p>联合</p>
+<p>位字段    </p>
+<p>​                </p>
+</li>
+<li><p>命令行参数</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[] )</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        #./test -x 注意优先级顺序</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,argv[<span class="number">0</span>]);#./<span class="function">test</span></span><br><span class="line"><span class="function">        <span class="title">printf</span><span class="params">(<span class="string">&quot;%c\n&quot;</span>,(*++argv)[<span class="number">0</span>])</span></span>;#-  argv指向argv[<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%c\n&quot;</span>,*++argv[<span class="number">0</span>]);<span class="meta">#x,先与[]结合,所以依然指向argv[1]</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,argc);#<span class="number">2</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">~   </span><br></pre></td></tr></table></figure></li>
+<li><p>运算符集合</p>
+</li>
+<li><p>控制流语句</p>
+</li>
+<li><p>标准库</p>
+<p>​    输入输出：printf (“%d”,i)、scanf(“%d”,&amp;i)</p>
+<p>​    文件访问：</p>
+<p>​        1.打开文件，返回文件指针    </p>
+<p>​    </p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FILE *fp;</span><br><span class="line"><span class="function">FILE *<span class="title">fopen</span><span class="params">(<span class="keyword">char</span> *name,<span class="keyword">char</span> *mode)</span> </span></span><br><span class="line"><span class="function">fp </span>= fopen(name,mode)</span><br></pre></td></tr></table></figure>
+
+<p>​    2.文件读写</p>
+<p>​        int getc(FILE *fp)</p>
+<p>​        int putc(FILE *fp)    </p>
+<p>​        #define getchar() getc(stdin)<br>​        #define putchar(c) putc((c), stdout)                    </p>
+<p>​        int fscanf(FILE *fp, char *format, …)<br>​        int fprintf(FILE *fp, char *format, …)</p>
+<p>​    3.关闭文件</p>
+<p>​        int fclose (FILE *fp)</p>
+<p>​    错误处理</p>
+<p>​        stderr 和exit</p>
+<p>​        fprintf(stderr, “%s: can’t open %s\n”,prog, *argv);</p>
+<p>​        int ferror（FILE *fp）#若流fp中出错，则函数返回一个非0值</p>
+<p>​        int feof(FILE *fp) #如果指定的文件到达文件结尾，返回一个非0值</p>
+<p>​    行输入行输出</p>
+<p>​    char *fgets(char *line, int maxline, FILE *fp) #读文件一行到line</p>
+<p>​    int fputs(char *line, FILE *fp)#写line到文件</p>
+<p>​    其他函数</p>
+<p>​    <img src="https://github.com/hxlpub/imgs/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%87%BD%E6%95%B0.png?raw=true" alt="字符和字符串操作函数"></p>
+<ol start="10">
+<li><p>UNIX系统接口</p>
+<p>系统调用：操作系统内的函数，实现标准库函数，不同的操作系统实现其标准库函数的方式和方法不同</p>
+<p><strong>read、write</strong>#输入输出</p>
+<p>int n_read = read(int fd, char *buf, int n);<br>int n_written = write(int fd, char *buf, int n);</p>
+<p><strong>open、create</strong>#读写之前显式打开文件，open打开已存在文件，如果打开一个不存在文件报错，而create创建新文件或覆盖已有旧文件</p>
+<p>#flags ：O_RDONLY、O_WRONLY、O_RDWR，perms：权限，</p>
+<p>int fd;<br>int open(char *name, int flags, int perms);<br>fd = open(name, flags, perms);</p>
+<p>int creat(char *name, int perms);<br>fd = creat(name, perms);</p>
+<p><strong>close、unlink</strong>#</p>
+<p><strong>lseek</strong>#随机访问，不实际读写数据</p>
+<p>long lseek(int fd, long offset, int origin);</p>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<center>第二部分：结合开源项目特性应用</center>
+
+     
+
+<hr>
+<center>第三部分：良好的编码风格（附录）
+
+<ul>
+<li>正确缩进</li>
+<li>适当空格<ul>
+<li>运算符两边各加一个空格字符</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/09/15/hexo_build_blog/" rel="prev" title="hexo搭建博客">
+      <i class="fa fa-chevron-left"></i> hexo搭建博客
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/11/06/c++%20/" rel="next" title="C++基础知识">
+      C++基础知识 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">linhongxun</p>
+  <div class="site-description" itemprop="description">沉淀技术</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">42</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">linhongxun</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : true,
+      notify     : true,
+      appId      : 'hcgyufD935IIaChQrRh8CtHl-gzGzoHsz',
+      appKey     : 'DH5kY1u9r302GJ78avyxbtGt',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
