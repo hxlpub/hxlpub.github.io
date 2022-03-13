@@ -75,19 +75,16 @@ $(function() {
     $menuList[activeIndex] && $($menuList[activeIndex]).addClass('active');
   }
 });
-function addLoadEvent(func) {
-  var oldonload = window.onload;
-  if (typeof window.onload != 'function') {
-      window.onload = func;
-  } else {
-      window.onload = function() {
-          oldonload();
-          func();
-      }
-  }
-}
 
-/**
-* 感谢您复制代码，使用代码请注明引用出处
-* kajweb @ https://blog.iwwee.com
-*/
+//function addLoadEvent(func) {
+//  var oldonload = window.onload;
+//  if (typeof window.onload != 'function') {
+//      window.onload = func;
+//  } else {
+//      window.onload = function() {
+//          oldonload();
+//          func();
+//      }
+//  }
+//}
+
