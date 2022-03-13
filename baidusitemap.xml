@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <lastmod>2022-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/11/06/c_cplusplus/</loc>
+    <lastmod>2022-03-13</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
     <lastmod>2022-03-13</lastmod>
   </url>
@@ -63,14 +71,6 @@
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/algorithm/</loc>
     <lastmod>2022-01-07</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/c++%20/</loc>
-    <lastmod>2022-01-02</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/c_c++%20/</loc>
-    <lastmod>2022-01-02</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/11/09/Makefile/</loc>
