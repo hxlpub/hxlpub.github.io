@@ -456,7 +456,7 @@ var open = function() {
     var errorContainer = repoContainer.find(".blankslate");
     var countContainer = $("#repo-count");
 
-    $.get("https://api.github.com/users/cofess/repos", function(result) {
+    $.get("https://api.github.com/users/hxlpub/repos", function(result) {
       if (result) {
         errorContainer.remove();
         countContainer.text(result.length); //设置项目个数
