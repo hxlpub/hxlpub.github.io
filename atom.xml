@@ -428,6 +428,23 @@
   </entry>
   
   <entry>
+    <title>PostgreSQL</title>
+    <link href="https://hxlpub.github.io/2021/09/14/database_redis/"/>
+    <id>https://hxlpub.github.io/2021/09/14/database_redis/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2021-10-14T10:05:50.000Z</updated>
+    
+    
+    
+    
+    <category term="数据库" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="PostgreSQL" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/PostgreSQL/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>postgres数据库基本操作</title>
     <link href="https://hxlpub.github.io/2021/09/14/database_pg/"/>
     <id>https://hxlpub.github.io/2021/09/14/database_pg/</id>
@@ -451,23 +468,6 @@
     <category term="数据库" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="postgres" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/postgres/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>PostgreSQL</title>
-    <link href="https://hxlpub.github.io/2021/09/14/database_redis/"/>
-    <id>https://hxlpub.github.io/2021/09/14/database_redis/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2021-10-14T10:05:50.000Z</updated>
-    
-    
-    
-    
-    <category term="数据库" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="PostgreSQL" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/PostgreSQL/"/>
     
     
   </entry>
