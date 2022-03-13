@@ -304,31 +304,6 @@
   </entry>
   
   <entry>
-    <title>算法</title>
-    <link href="https://hxlpub.github.io/2021/09/14/algorithm/"/>
-    <id>https://hxlpub.github.io/2021/09/14/algorithm/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-01-07T01:40:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.二分排序  K&amp;R P99</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.二分排序  K&amp;amp;R P99&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="算法" scheme="https://hxlpub.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="排序" scheme="https://hxlpub.github.io/categories/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Python基础</title>
     <link href="https://hxlpub.github.io/2021/09/14/Python/"/>
     <id>https://hxlpub.github.io/2021/09/14/Python/</id>
@@ -355,6 +330,31 @@
     <category term="Python" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/Python/"/>
     
     <category term="语言基础原理" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/Python/%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>算法</title>
+    <link href="https://hxlpub.github.io/2021/09/14/algorithm/"/>
+    <id>https://hxlpub.github.io/2021/09/14/algorithm/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-01-07T01:40:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.二分排序  K&amp;R P99</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.二分排序  K&amp;amp;R P99&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="https://hxlpub.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="https://hxlpub.github.io/categories/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
     
     
   </entry>
