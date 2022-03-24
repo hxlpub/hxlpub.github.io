@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hxlpub.github.io/2022/01/09/go_base/</loc>
+    <lastmod>2022-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/vscode_extensions%20(copy)/</loc>
+    <lastmod>2022-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
+    <lastmod>2022-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
+    <lastmod>2022-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_packages/</loc>
+    <lastmod>2022-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
     <lastmod>2022-03-15</lastmod>
   </url>
   <url>
