@@ -32,11 +32,11 @@
   </entry>
   
   <entry>
-    <title>notes2022</title>
+    <title>newpc_test_for_hexo_blog</title>
     <link href="https://hxlpub.github.io/2022/01/15/newpc/"/>
     <id>https://hxlpub.github.io/2022/01/15/newpc/</id>
     <published>2022-01-15T09:05:23.000Z</published>
-    <updated>2022-01-15T05:46:45.630Z</updated>
+    <updated>2022-03-26T08:50:54.949Z</updated>
     
     <content type="html"><![CDATA[<center>ps:new year love more ！！！</center>]]></content>
     
@@ -60,11 +60,11 @@
   </entry>
   
   <entry>
-    <title>基础概念</title>
+    <title>设计模式</title>
     <link href="https://hxlpub.github.io/2022/01/13/system_design_thinking/"/>
     <id>https://hxlpub.github.io/2022/01/13/system_design_thinking/</id>
     <published>2022-01-13T02:16:07.000Z</published>
-    <updated>2022-01-13T02:29:24.000Z</updated>
+    <updated>2022-03-26T08:51:57.827Z</updated>
     
     <content type="html"><![CDATA[<p>1、异步同步阻塞非阻塞（以下知乎十分有趣）</p><p><a href="https://www.zhihu.com/question/26393784">https://www.zhihu.com/question/26393784</a></p><p>老张爱喝茶，废话不说，煮开水。 出场人物：老张，水壶两把（普通水壶，简称水壶；会响的水壶，简称响水壶）。 </p><p>1)老张把水壶放到火上，立等水开。（同步阻塞） 老张觉得自己有点傻</p><p>2)老张把水壶放到火上，去客厅看电视，时不时去厨房看看水开没有。（同步非阻塞） 老张还是觉得自己有点傻，于是变高端了，买了把会响笛的那种水壶。水开之后，能大声发出嘀~~~~的噪音。 </p><p>3)老张把响水壶放到火上，立等水开。（异步阻塞） 老张觉得这样傻等意义不大 </p><p>4)老张把响水壶放到火上，去客厅看电视，水壶响之前不再去看它了，响了再去拿壶。（异步非阻塞） 老张觉得自己聪明了。</p><p>所谓同步异步，只是对于水壶而言。 普通水壶，同步；响水壶，异步。 虽然都能干活，但响水壶可以在自己完工之后，提示老张水开了。这是普通水壶所不能及的。 同步只能让调用者去轮询自己（情况2中），造成老张效率的低下。所谓阻塞非阻塞，仅仅对于老张而言。 立等的老张，阻塞；看电视的老张，非阻塞。 情况1和情况3中老张就是阻塞的，媳妇喊他都不知道。虽然3中响水壶是异步的，可对于立等的老张没有太大的意义。所以一般异步是配合非阻塞使用的，这样才能发挥异步的效用。</p><p>作者：知乎用户<br>链接：<a href="https://www.zhihu.com/question/26393784/answer/513257548">https://www.zhihu.com/question/26393784/answer/513257548</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
     
@@ -78,12 +78,10 @@
     
     
     
-    <category term="设计之道" scheme="https://hxlpub.github.io/categories/%E8%AE%BE%E8%AE%A1%E4%B9%8B%E9%81%93/"/>
-    
-    <category term="概念" scheme="https://hxlpub.github.io/categories/%E8%AE%BE%E8%AE%A1%E4%B9%8B%E9%81%93/%E6%A6%82%E5%BF%B5/"/>
+    <category term="设计模式" scheme="https://hxlpub.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
-    <category term="设计" scheme="https://hxlpub.github.io/tags/%E8%AE%BE%E8%AE%A1/"/>
+    <category term="设计模式" scheme="https://hxlpub.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
@@ -141,7 +139,7 @@
     <link href="https://hxlpub.github.io/2021/11/09/Makefile/"/>
     <id>https://hxlpub.github.io/2021/11/09/Makefile/</id>
     <published>2021-11-09T11:56:07.000Z</published>
-    <updated>2021-11-09T11:56:48.000Z</updated>
+    <updated>2022-03-26T08:49:52.231Z</updated>
     
     <content type="html"><![CDATA[<p>​        </p>]]></content>
     
@@ -154,11 +152,7 @@
     
     
     
-    <category term="服务端" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
-    
-    <category term="编译" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/%E7%BC%96%E8%AF%91/"/>
-    
-    <category term="Makefile" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/%E7%BC%96%E8%AF%91/Makefile/"/>
+    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
     
     
   </entry>
@@ -269,32 +263,27 @@
   </entry>
   
   <entry>
-    <title>Python基础</title>
+    <title>Python之必知必会</title>
     <link href="https://hxlpub.github.io/2021/09/14/Python/"/>
     <id>https://hxlpub.github.io/2021/09/14/Python/</id>
     <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-14T13:48:38.799Z</updated>
+    <updated>2022-03-26T08:51:27.455Z</updated>
     
-    <content type="html"><![CDATA[<p>一、初级</p><ol><li><p>环境搭建</p></li><li><p>基础语法</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">   </span><br></pre></td></tr></table></figure></li><li><p>基本数据类型</p></li><li><p>数据类型转换</p></li><li><p>推导式</p></li><li><p>解释器</p></li><li><p>注释</p></li><li><p>运算符</p></li><li><p>数字</p></li><li><p>字符串</p></li><li><p>列表</p></li><li><p>元组</p></li><li><p>字典</p></li><li><p>集合</p></li><li><p>条件控制</p></li><li><p>循环语句</p></li><li><p>迭代器与生成器</p></li><li><p>函数</p></li><li><p>数据结构</p></li><li><p>模块</p></li><li><p>输入输出</p></li><li><p>File</p></li><li><p>OS</p></li><li><p>错误与异常处理</p></li><li><p>面向对象</p></li><li><p>命名空间/作用域</p></li><li><p>标准库</p></li></ol><hr><p>二、高级</p><ol><li>正则表达式</li><li>CGI编程</li><li>MySql</li><li></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p>环境搭建</p></li><li><p>基础语法</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">   </span><br></pre></td></tr></table></figure></li><li><p>基本数据类型</p></li><li><p>数据类型转换</p></li><li><p>推导式</p></li><li><p>解释器</p></li><li><p>注释</p></li><li><p>运算符</p></li><li><p>数字</p></li><li><p>字符串</p></li><li><p>列表</p></li><li><p>元组</p></li><li><p>字典</p></li><li><p>集合</p></li><li><p>条件控制</p></li><li><p>循环语句</p></li><li><p>迭代器与生成器</p></li><li><p>函数</p></li><li><p>数据结构</p></li><li><p>模块</p></li><li><p>输入输出</p></li><li><p>File</p></li><li><p>OS</p></li><li><p>错误与异常处理</p></li><li><p>面向对象</p></li><li><p>命名空间/作用域</p></li><li><p>标准库</p></li></ol><hr><p>二、高级</p><ol><li>正则表达式</li><li>CGI编程</li><li>MySql</li><li></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;一、初级&lt;/p&gt;
-&lt;ol&gt;
+    <summary type="html">&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;环境搭建&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;基础语法&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line</summary>
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;b</summary>
       
     
     
     
-    <category term="服务端" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
-    
-    <category term="Python" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/Python/"/>
-    
-    <category term="语言基础原理" scheme="https://hxlpub.github.io/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/Python/%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/"/>
+    <category term="Python" scheme="https://hxlpub.github.io/categories/Python/"/>
     
     
   </entry>
@@ -349,11 +338,11 @@
   </entry>
   
   <entry>
-    <title>Makefile</title>
+    <title>编译原理</title>
     <link href="https://hxlpub.github.io/2021/09/14/compiler/"/>
     <id>https://hxlpub.github.io/2021/09/14/compiler/</id>
     <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T07:50:35.212Z</updated>
+    <updated>2022-03-26T08:49:21.678Z</updated>
     
     <content type="html"><![CDATA[<h2 id="section-1-GCC"><a href="#section-1-GCC" class="headerlink" title="section 1 GCC"></a>section 1 GCC</h2><p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p><hr><h2 id="section2-Makefile"><a href="#section2-Makefile" class="headerlink" title="section2 Makefile"></a>section2 Makefile</h2><p><em><strong>概述</strong></em></p><p>什么是makefile？</p><p>windows开发IDE为我们做了这部分的工作，而在Linux 端开发，必须要自己写makefile,会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。</p>]]></content>
     
