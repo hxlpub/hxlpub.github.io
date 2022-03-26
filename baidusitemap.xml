@@ -1,56 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/15/go_tcp/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_packages/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_compile/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2022/01/09/go_base/</loc>
-    <lastmod>2022-03-18</lastmod>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/git_tools/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/deep-learning/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/database_redis/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/database_pg/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/01/24/daos_2.0/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/cv/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/compiler/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/compile_debug/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/11/06/c_cplusplus/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/algorithm/</loc>
+    <lastmod>2022-03-26</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/vscode_extensions%20(copy)/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_packages/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
-    <lastmod>2022-03-15</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
     <lastmod>2022-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
-    <lastmod>2022-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/c_cplusplus/</loc>
-    <lastmod>2022-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
-    <lastmod>2022-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/compiler/</loc>
-    <lastmod>2022-03-03</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/compile_debug/</loc>
-    <lastmod>2022-02-26</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_soft_manage_FAq/</loc>
@@ -61,16 +101,8 @@
     <lastmod>2022-02-23</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_compile/</loc>
-    <lastmod>2022-02-22</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_command_tools/</loc>
     <lastmod>2022-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/01/24/daos_2.0/</loc>
-    <lastmod>2022-01-24</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_mini_system_config/</loc>
@@ -85,14 +117,6 @@
     <lastmod>2022-01-13</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/database_pg/</loc>
-    <lastmod>2022-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/algorithm/</loc>
-    <lastmod>2022-01-07</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/11/09/Makefile/</loc>
     <lastmod>2021-11-09</lastmod>
   </url>
@@ -105,36 +129,12 @@
     <lastmod>2021-11-06</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux/</loc>
-    <lastmod>2021-10-29</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_ko/</loc>
     <lastmod>2021-10-22</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/git_tools/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/cv/</loc>
-    <lastmod>2021-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/database_redis/</loc>
-    <lastmod>2021-10-14</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/12/love/</loc>
     <lastmod>2021-10-10</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/deep-learning/</loc>
-    <lastmod>2021-10-10</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/15/go_tcp/</loc>
-    <lastmod>2021-10-09</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/machine-learning/</loc>
