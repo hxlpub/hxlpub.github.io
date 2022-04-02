@@ -423,23 +423,6 @@
   </entry>
   
   <entry>
-    <title>cv</title>
-    <link href="https://hxlpub.github.io/2021/09/14/cv/"/>
-    <id>https://hxlpub.github.io/2021/09/14/cv/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T09:01:13.127Z</updated>
-    
-    
-    
-    
-    <category term="计算机视觉CV" scheme="https://hxlpub.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89CV/"/>
-    
-    
-    <category term="cv" scheme="https://hxlpub.github.io/tags/cv/"/>
-    
-  </entry>
-  
-  <entry>
     <title>postgres数据库之基本操作</title>
     <link href="https://hxlpub.github.io/2021/09/14/database_pg/"/>
     <id>https://hxlpub.github.io/2021/09/14/database_pg/</id>
@@ -498,6 +481,31 @@
     
     
     <category term="DL" scheme="https://hxlpub.github.io/tags/DL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git版本管理工具</title>
+    <link href="https://hxlpub.github.io/2021/09/14/git_tools/"/>
+    <id>https://hxlpub.github.io/2021/09/14/git_tools/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-03-26T09:04:24.038Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.把github上面的仓库克隆到本地</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 仓库</span><br></pre></td></tr></table></figure><p>2.上传本地的项目到github仓库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git add * #可将当前目录下文件添加到暂存区</span><br><span class="line">git add [file1] [file2] ...#添加一个或多个文件到暂存区</span><br><span class="line">git add [dir]#添加指定目录到暂存区，包括子目录</span><br><span class="line">git add .#添加当前目录下的所有文件到暂存区</span><br><span class="line">git commit  -m  &quot;提交信息&quot;  （注：“提交信息”里面换成你需要，如“first commit”）</span><br><span class="line">git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码，这里的账号和密码是你的github的账号和密码，你第一次上传的话可能会需要你输密码）</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.把github上面的仓库克隆到本地&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td </summary>
+      
+    
+    
+    
+    <category term="开发工具" scheme="https://hxlpub.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="版本管理" scheme="https://hxlpub.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
