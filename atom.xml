@@ -399,23 +399,6 @@
   </entry>
   
   <entry>
-    <title>cv</title>
-    <link href="https://hxlpub.github.io/2021/09/14/cv/"/>
-    <id>https://hxlpub.github.io/2021/09/14/cv/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T09:01:13.127Z</updated>
-    
-    
-    
-    
-    <category term="计算机视觉CV" scheme="https://hxlpub.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89CV/"/>
-    
-    
-    <category term="cv" scheme="https://hxlpub.github.io/tags/cv/"/>
-    
-  </entry>
-  
-  <entry>
     <title>编译原理</title>
     <link href="https://hxlpub.github.io/2021/09/14/compiler/"/>
     <id>https://hxlpub.github.io/2021/09/14/compiler/</id>
@@ -436,6 +419,23 @@
     
     
     <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cv</title>
+    <link href="https://hxlpub.github.io/2021/09/14/cv/"/>
+    <id>https://hxlpub.github.io/2021/09/14/cv/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-03-26T09:01:13.127Z</updated>
+    
+    
+    
+    
+    <category term="计算机视觉CV" scheme="https://hxlpub.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89CV/"/>
+    
+    
+    <category term="cv" scheme="https://hxlpub.github.io/tags/cv/"/>
     
   </entry>
   
