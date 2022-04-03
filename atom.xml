@@ -369,30 +369,6 @@
   </entry>
   
   <entry>
-    <title>GCC编译</title>
-    <link href="https://hxlpub.github.io/2021/09/14/compile_debug/"/>
-    <id>https://hxlpub.github.io/2021/09/14/compile_debug/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T07:50:26.967Z</updated>
-    
-    <content type="html"><![CDATA[<p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语</summary>
-      
-    
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>编译原理</title>
     <link href="https://hxlpub.github.io/2021/09/14/compiler/"/>
     <id>https://hxlpub.github.io/2021/09/14/compiler/</id>
@@ -405,6 +381,30 @@
       
       
     <summary type="html">&lt;h2 id=&quot;section-1-GCC&quot;&gt;&lt;a href=&quot;#section-1-GCC&quot; class=&quot;headerlink&quot; title=&quot;section 1 GCC&quot;&gt;&lt;/a&gt;section 1 GCC&lt;/h2&gt;&lt;p&gt;​        GCC原名为GNU C语言编译器（</summary>
+      
+    
+    
+    
+    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
+    
+    
+    <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GCC编译</title>
+    <link href="https://hxlpub.github.io/2021/09/14/compile_debug/"/>
+    <id>https://hxlpub.github.io/2021/09/14/compile_debug/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-03-26T07:50:26.967Z</updated>
+    
+    <content type="html"><![CDATA[<p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语</summary>
       
     
     
@@ -430,6 +430,23 @@
     
     
     <category term="cv" scheme="https://hxlpub.github.io/tags/cv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PostgreSQL数据库</title>
+    <link href="https://hxlpub.github.io/2021/09/14/database_redis/"/>
+    <id>https://hxlpub.github.io/2021/09/14/database_redis/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-03-26T09:01:46.873Z</updated>
+    
+    
+    
+    
+    <category term="数据库" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="pg" scheme="https://hxlpub.github.io/tags/pg/"/>
     
   </entry>
   
@@ -475,31 +492,6 @@
     
     
     <category term="DL" scheme="https://hxlpub.github.io/tags/DL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git版本管理工具</title>
-    <link href="https://hxlpub.github.io/2021/09/14/git_tools/"/>
-    <id>https://hxlpub.github.io/2021/09/14/git_tools/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T09:04:24.038Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.把github上面的仓库克隆到本地</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 仓库</span><br></pre></td></tr></table></figure><p>2.上传本地的项目到github仓库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git add * #可将当前目录下文件添加到暂存区</span><br><span class="line">git add [file1] [file2] ...#添加一个或多个文件到暂存区</span><br><span class="line">git add [dir]#添加指定目录到暂存区，包括子目录</span><br><span class="line">git add .#添加当前目录下的所有文件到暂存区</span><br><span class="line">git commit  -m  &quot;提交信息&quot;  （注：“提交信息”里面换成你需要，如“first commit”）</span><br><span class="line">git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码，这里的账号和密码是你的github的账号和密码，你第一次上传的话可能会需要你输密码）</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.把github上面的仓库克隆到本地&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td </summary>
-      
-    
-    
-    
-    <category term="开发工具" scheme="https://hxlpub.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="版本管理" scheme="https://hxlpub.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
