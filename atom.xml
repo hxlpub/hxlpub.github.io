@@ -440,6 +440,30 @@
   </entry>
   
   <entry>
+    <title>编译原理</title>
+    <link href="https://hxlpub.github.io/2021/09/14/compiler/"/>
+    <id>https://hxlpub.github.io/2021/09/14/compiler/</id>
+    <published>2021-09-14T09:26:07.000Z</published>
+    <updated>2022-03-26T09:00:17.844Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="section-1-GCC"><a href="#section-1-GCC" class="headerlink" title="section 1 GCC"></a>section 1 GCC</h2><p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p><hr><h2 id="section2-Makefile"><a href="#section2-Makefile" class="headerlink" title="section2 Makefile"></a>section2 Makefile</h2><p><em><strong>概述</strong></em></p><p>什么是makefile？</p><p>windows开发IDE为我们做了这部分的工作，而在Linux 端开发，必须要自己写makefile,会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;section-1-GCC&quot;&gt;&lt;a href=&quot;#section-1-GCC&quot; class=&quot;headerlink&quot; title=&quot;section 1 GCC&quot;&gt;&lt;/a&gt;section 1 GCC&lt;/h2&gt;&lt;p&gt;​        GCC原名为GNU C语言编译器（</summary>
+      
+    
+    
+    
+    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
+    
+    
+    <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python之必知必会</title>
     <link href="https://hxlpub.github.io/2021/09/14/Python/"/>
     <id>https://hxlpub.github.io/2021/09/14/Python/</id>
@@ -463,30 +487,6 @@
     
     
     <category term="python" scheme="https://hxlpub.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>编译原理</title>
-    <link href="https://hxlpub.github.io/2021/09/14/compiler/"/>
-    <id>https://hxlpub.github.io/2021/09/14/compiler/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T09:00:17.844Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="section-1-GCC"><a href="#section-1-GCC" class="headerlink" title="section 1 GCC"></a>section 1 GCC</h2><p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p><hr><h2 id="section2-Makefile"><a href="#section2-Makefile" class="headerlink" title="section2 Makefile"></a>section2 Makefile</h2><p><em><strong>概述</strong></em></p><p>什么是makefile？</p><p>windows开发IDE为我们做了这部分的工作，而在Linux 端开发，必须要自己写makefile,会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。会不会写makefile，从一个侧面说明了一个人是否具备完成大型工程的能力。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;section-1-GCC&quot;&gt;&lt;a href=&quot;#section-1-GCC&quot; class=&quot;headerlink&quot; title=&quot;section 1 GCC&quot;&gt;&lt;/a&gt;section 1 GCC&lt;/h2&gt;&lt;p&gt;​        GCC原名为GNU C语言编译器（</summary>
-      
-    
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
     
   </entry>
   
