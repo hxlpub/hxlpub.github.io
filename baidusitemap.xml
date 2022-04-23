@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2022/04/23/c/</loc>
+    <lastmod>2022-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
     <lastmod>2022-04-17</lastmod>
   </url>
@@ -66,10 +70,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_shell/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/c/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
