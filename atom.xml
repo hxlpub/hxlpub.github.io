@@ -271,10 +271,10 @@
   
   <entry>
     <title>python_newer</title>
-    <link href="https://hxlpub.github.io/2022/03/29/python-newer/"/>
-    <id>https://hxlpub.github.io/2022/03/29/python-newer/</id>
+    <link href="https://hxlpub.github.io/2022/03/29/python_concepts/"/>
+    <id>https://hxlpub.github.io/2022/03/29/python_concepts/</id>
     <published>2022-03-29T10:09:39.000Z</published>
-    <updated>2022-04-03T10:15:18.190Z</updated>
+    <updated>2022-04-03T10:08:10.130Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p>python的特点</p><ul><li><p><input checked="" disabled="" type="checkbox">  相比之下，Python 更易于使用，无论在 Windows、Mac OS X 或 Unix 操作系统上它都会帮助你更快地完成任务</p></li><li><p><input checked="" disabled="" type="checkbox">  与 Shell 脚本或批处理文件相比，它为编写大型程序提供了更多的结构和支持。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 提供了比 C 更多的错误检查，并且作为一门 <em>高级语言</em>，它内置支持高级的数据结构类型，例如：灵活的数组和字典。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 允许你将程序分割为不同的模块，以便在其他的 Python 程序中重用。Python 内置提供了大量的标准模块，你可以将其用作程序的基础，或者作为学习 Python 编程的示例。这些模块提供了诸如文件 I/O、系统调用、Socket 支持，甚至类似 Tk 的用户图形界面（GUI）工具包接口</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 是一门解释型语言，因为无需编译和链接，你可以在程序开发中节省宝贵的时间。Python 解释器可以交互的使用，这使得试验语言的特性、编写临时程序或在自底向上的程序开发中测试方法非常容易。你甚至还可以把它当做一个桌面计算器。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 让程序编写的紧凑和可读。用 Python 编写的程序通常比同样的 C、C++ 或 Java 程序更短小，这是因为以下几个原因:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* 高级数据结构使你可以在一条语句中表达复杂的操作；</span><br><span class="line"></span><br><span class="line">* 语句组使用缩进代替开始和结束大括号来组织；</span><br><span class="line"></span><br><span class="line">* 变量或参数无需声明。</span><br></pre></td></tr></table></figure></li><li><p><input checked="" disabled="" type="checkbox">  Python 是 <em>可扩展</em> 的：如果你会 C 语言编程便可以轻易地为解释器添加内置函数或模块，或者为了对性能瓶颈作优化，或者将 Python 程序与只有二进制形式的库（比如某个专业的商业图形库）连接起来。一旦你真正掌握了它，你可以将 Python 解释器集成进某个 C 应用程序，并把它当作那个程序的扩展或命令行语言。</p></li></ul></li><li><p>​        </p></li></ol>]]></content>
     
@@ -298,10 +298,10 @@
   
   <entry>
     <title>python_newer</title>
-    <link href="https://hxlpub.github.io/2022/03/29/python_concepts/"/>
-    <id>https://hxlpub.github.io/2022/03/29/python_concepts/</id>
+    <link href="https://hxlpub.github.io/2022/03/29/python-newer/"/>
+    <id>https://hxlpub.github.io/2022/03/29/python-newer/</id>
     <published>2022-03-29T10:09:39.000Z</published>
-    <updated>2022-04-03T10:08:10.130Z</updated>
+    <updated>2022-04-03T10:15:18.190Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p>python的特点</p><ul><li><p><input checked="" disabled="" type="checkbox">  相比之下，Python 更易于使用，无论在 Windows、Mac OS X 或 Unix 操作系统上它都会帮助你更快地完成任务</p></li><li><p><input checked="" disabled="" type="checkbox">  与 Shell 脚本或批处理文件相比，它为编写大型程序提供了更多的结构和支持。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 提供了比 C 更多的错误检查，并且作为一门 <em>高级语言</em>，它内置支持高级的数据结构类型，例如：灵活的数组和字典。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 允许你将程序分割为不同的模块，以便在其他的 Python 程序中重用。Python 内置提供了大量的标准模块，你可以将其用作程序的基础，或者作为学习 Python 编程的示例。这些模块提供了诸如文件 I/O、系统调用、Socket 支持，甚至类似 Tk 的用户图形界面（GUI）工具包接口</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 是一门解释型语言，因为无需编译和链接，你可以在程序开发中节省宝贵的时间。Python 解释器可以交互的使用，这使得试验语言的特性、编写临时程序或在自底向上的程序开发中测试方法非常容易。你甚至还可以把它当做一个桌面计算器。</p></li><li><p><input checked="" disabled="" type="checkbox">  Python 让程序编写的紧凑和可读。用 Python 编写的程序通常比同样的 C、C++ 或 Java 程序更短小，这是因为以下几个原因:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* 高级数据结构使你可以在一条语句中表达复杂的操作；</span><br><span class="line"></span><br><span class="line">* 语句组使用缩进代替开始和结束大括号来组织；</span><br><span class="line"></span><br><span class="line">* 变量或参数无需声明。</span><br></pre></td></tr></table></figure></li><li><p><input checked="" disabled="" type="checkbox">  Python 是 <em>可扩展</em> 的：如果你会 C 语言编程便可以轻易地为解释器添加内置函数或模块，或者为了对性能瓶颈作优化，或者将 Python 程序与只有二进制形式的库（比如某个专业的商业图形库）连接起来。一旦你真正掌握了它，你可以将 Python 解释器集成进某个 C 应用程序，并把它当作那个程序的扩展或命令行语言。</p></li></ul></li><li><p>​        </p></li></ol>]]></content>
     
