@@ -6,7 +6,7 @@
   <link href="https://hxlpub.github.io/atom.xml" rel="self"/>
   
   <link href="https://hxlpub.github.io/"/>
-  <updated>2022-04-23T10:15:22.326Z</updated>
+  <updated>2022-04-30T11:17:20.443Z</updated>
   <id>https://hxlpub.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>typora_activate</title>
+    <link href="https://hxlpub.github.io/2022/04/30/typora-activate/"/>
+    <id>https://hxlpub.github.io/2022/04/30/typora-activate/</id>
+    <published>2022-04-30T11:15:26.000Z</published>
+    <updated>2022-04-30T11:17:20.443Z</updated>
+    
+    <content type="html"><![CDATA[<p>链接：<a href="https://pan.baidu.com/s/19QqJXAf9dTIYDe_kJ4P0fA">https://pan.baidu.com/s/19QqJXAf9dTIYDe_kJ4P0fA</a><br>提取码：nfl7</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;链接：&lt;a href=&quot;https://pan.baidu.com/s/19QqJXAf9dTIYDe_kJ4P0fA&quot;&gt;https://pan.baidu.com/s/19QqJXAf9dTIYDe_kJ4P0fA&lt;/a&gt;&lt;br&gt;提取码：nfl7&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="开发工具" scheme="https://hxlpub.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Typora" scheme="https://hxlpub.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>datastructure</title>
+    <link href="https://hxlpub.github.io/2022/04/28/datastructures_tutorial/"/>
+    <id>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</id>
+    <published>2022-04-28T12:11:08.000Z</published>
+    <updated>2022-04-28T12:11:08.261Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>c_new</title>
@@ -340,23 +378,6 @@
   </entry>
   
   <entry>
-    <title>golang之编码规范</title>
-    <link href="https://hxlpub.github.io/2022/01/09/go_base_coding_rule/"/>
-    <id>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</id>
-    <published>2022-01-09T04:47:30.000Z</published>
-    <updated>2022-03-26T09:06:21.612Z</updated>
-    
-    
-    
-    
-    <category term="golang" scheme="https://hxlpub.github.io/categories/golang/"/>
-    
-    
-    <category term="golang" scheme="https://hxlpub.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
     <title>golang之必知必会</title>
     <link href="https://hxlpub.github.io/2022/01/09/go_base/"/>
     <id>https://hxlpub.github.io/2022/01/09/go_base/</id>
@@ -373,6 +394,23 @@
 &lt;li&gt;&lt;p&gt;特色&lt;/p&gt;
 &lt;ul</summary>
       
+    
+    
+    
+    <category term="golang" scheme="https://hxlpub.github.io/categories/golang/"/>
+    
+    
+    <category term="golang" scheme="https://hxlpub.github.io/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang之编码规范</title>
+    <link href="https://hxlpub.github.io/2022/01/09/go_base_coding_rule/"/>
+    <id>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</id>
+    <published>2022-01-09T04:47:30.000Z</published>
+    <updated>2022-03-26T09:06:21.612Z</updated>
+    
     
     
     
@@ -480,55 +518,6 @@
     
     
     <category term="golang" scheme="https://hxlpub.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>排序</title>
-    <link href="https://hxlpub.github.io/2021/09/14/algorithm/"/>
-    <id>https://hxlpub.github.io/2021/09/14/algorithm/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T09:08:17.422Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.二分排序  K&amp;R P99</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.二分排序  K&amp;amp;R P99&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="算法" scheme="https://hxlpub.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="排序算法" scheme="https://hxlpub.github.io/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GCC编译</title>
-    <link href="https://hxlpub.github.io/2021/09/14/compile_debug/"/>
-    <id>https://hxlpub.github.io/2021/09/14/compile_debug/</id>
-    <published>2021-09-14T09:26:07.000Z</published>
-    <updated>2022-03-26T07:50:26.967Z</updated>
-    
-    <content type="html"><![CDATA[<p>​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件（GNU Compiler Collection）。</p><p>​        虽然我们称GCC是<a href="https://baike.baidu.com/item/C%E8%AF%AD%E8%A8%80">C语言</a>的<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a>，但使用gcc由C语言<a href="https://baike.baidu.com/item/%E6%BA%90%E4%BB%A3%E7%A0%81">源代码</a>文件生成<a href="https://baike.baidu.com/item/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6">可执行文件</a>的过程不仅仅是编译的过程，而是要经历四个相互关联的步骤∶</p><p>​        <a href="https://baike.baidu.com/item/%E9%A2%84%E5%A4%84%E7%90%86">预处理</a>（也称<a href="https://baike.baidu.com/item/%E9%A2%84%E7%BC%96%E8%AF%91">预编译</a>，Preprocessing）</p><p>​        <a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91">编译</a>（Compilation）</p><p>​        <a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96">汇编</a>（Assembly）</p><p>​        链接（Linking）</p><p><img src="https://github.com/hxlpub/imgs/blob/master/compile.png?raw=true"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;​        GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语</summary>
-      
-    
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/"/>
-    
-    
-    <category term="编译" scheme="https://hxlpub.github.io/tags/%E7%BC%96%E8%AF%91/"/>
     
   </entry>
   
