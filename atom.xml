@@ -42,19 +42,29 @@
   </entry>
   
   <entry>
-    <title>datastructure</title>
+    <title>day01_表、栈、队列</title>
     <link href="https://hxlpub.github.io/2022/04/28/datastructures_tutorial/"/>
     <id>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</id>
     <published>2022-04-28T12:11:08.000Z</published>
-    <updated>2022-04-30T13:02:33.097Z</updated>
+    <updated>2022-05-02T03:13:30.407Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考</p><p>本文参考自《数据结构与算法分析C++描述》第三版，作者Mark Allen Weiss</p><ol><li><h5 id="表"><a href="#表" class="headerlink" title="表"></a>表</h5><p>1)链表可以解决什么问题？其一般思想是？</p><ul><li><p>表的数组实现带来的问题</p><p>数组实现printList线性时间，findKth 常数时间，但插入和删除操作在整个表中发生时，时间开销最坏的情况是线性的O(N)，数组就不合适。</p></li><li><p>链表一般思想</p><p>为避免插入和删除带来的线性开销，允许表可以不连续存储，否则表的部分或全部都要整体移动。</p><p>下图表示了链表的一般性思想：</p><p><img src="C:\Users\hongx\AppData\Roaming\Typora\typora-user-images\image-20220502111042397.png" alt="image-20220502111042397"></p></li></ul></li><li><h5 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h5></li><li><h5 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h5></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;本文参考自《数据结构与算法分析C++描述》第三版，作者Mark Allen Weiss&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;h5 id=&quot;表&quot;&gt;&lt;a href=&quot;#表&quot; class=&quot;headerlink&quot; title=&quot;表&quot;&gt;&lt;/a&gt;表&lt;/h5&gt;&lt;p&gt;1)链表</summary>
+      
     
     
     
+    <category term="数据结构&amp;算法分析" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/"/>
     
-    <category term="数据结构" scheme="https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    
-    <category term="data type" scheme="https://hxlpub.github.io/tags/data-type/"/>
+    <category term="Structures&amp;Algorithm" scheme="https://hxlpub.github.io/tags/Structures-Algorithm/"/>
     
   </entry>
   
@@ -451,19 +461,22 @@
   </entry>
   
   <entry>
-    <title>cplusplus</title>
+    <title>回顾</title>
     <link href="https://hxlpub.github.io/2021/11/06/cplusplus/"/>
     <id>https://hxlpub.github.io/2021/11/06/cplusplus/</id>
     <published>2021-11-06T03:55:07.000Z</published>
-    <updated>2022-04-17T08:23:07.368Z</updated>
+    <updated>2022-05-01T08:07:33.716Z</updated>
     
-    <content type="html"><![CDATA[<p>​        </p>]]></content>
+    <content type="html"><![CDATA[<h5 id="1-C-类"><a href="#1-C-类" class="headerlink" title="1.C++类"></a>1.C++类</h5><ul><li><p>基本语法</p><p>成员：数据和方法</p></li><li><p>构造函数和访问函数</p></li><li><p>接口实现分离</p></li><li><p>vector和string</p></li></ul><p>​        </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;​        &lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h5 id=&quot;1-C-类&quot;&gt;&lt;a href=&quot;#1-C-类&quot; class=&quot;headerlink&quot; title=&quot;1.C++类&quot;&gt;&lt;/a&gt;1.C++类&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;基本语法&lt;/p&gt;
+&lt;p&gt;成员：数据和方法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;构造函数和访问函数</summary>
       
     
     
