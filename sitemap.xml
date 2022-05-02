@@ -492,7 +492,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/index.html</loc> 
+    <loc>https://hxlpub.github.io/about/index.html</loc> 
     
     
     <lastmod>2022-03-12</lastmod>
@@ -502,7 +502,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/about/index.html</loc> 
+    <loc>https://hxlpub.github.io/categories/index.html</loc> 
     
     
     <lastmod>2022-03-12</lastmod>
@@ -587,14 +587,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/postgres/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hxlpub.github.io/tags/pg/</loc>
+    <loc>https://hxlpub.github.io/tags/python/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -608,7 +601,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/python/</loc>
+    <loc>https://hxlpub.github.io/tags/pg/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/tags/postgres/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -664,14 +664,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/love/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hxlpub.github.io/tags/shell/</loc>
+    <loc>https://hxlpub.github.io/tags/open-sites/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -685,14 +678,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/open-sites/</loc>
+    <loc>https://hxlpub.github.io/tags/shell/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/Python/</loc>
+    <loc>https://hxlpub.github.io/tags/love/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -700,6 +693,13 @@
   
   <url>
     <loc>https://hxlpub.github.io/tags/love-more/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/tags/Python/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -720,14 +720,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/Typora/</loc>
+    <loc>https://hxlpub.github.io/tags/vscode-extensions/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/vscode-extensions/</loc>
+    <loc>https://hxlpub.github.io/tags/Typora/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -785,7 +785,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://hxlpub.github.io/categories/Python/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -799,7 +799,7 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/Python/</loc>
+    <loc>https://hxlpub.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
