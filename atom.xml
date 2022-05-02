@@ -46,9 +46,9 @@
     <link href="https://hxlpub.github.io/2022/04/28/datastructures_tutorial/"/>
     <id>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</id>
     <published>2022-04-28T12:11:08.000Z</published>
-    <updated>2022-05-02T09:18:19.134Z</updated>
+    <updated>2022-05-02T09:33:00.430Z</updated>
     
-    <content type="html"><![CDATA[<p>参考</p><p>本文参考自《数据结构与算法分析C++描述》第三版，作者Mark Allen Weiss</p><ol><li><h5 id="表"><a href="#表" class="headerlink" title="表"></a>表</h5><p>1)链表可以解决什么问题？其一般思想是？</p><ul><li><p>表的数组实现带来的问题</p><p>数组实现printList线性时间，findKth 常数时间，但插入和删除操作在整个表中发生时，时间开销最坏的情况是线性的O(N)，数组就不合适。</p></li><li><p>链表一般思想</p><p>为避免插入和删除带来的线性开销，允许表可以不连续存储，否则表的部分或全部都要整体移动。</p><p>下图表示了链表的一般性思想：</p><p><img src="https://github.com/hxlpub/imgs/blob/master/image_20220502111042397.png?raw=true" alt="一个链表"></p><p>以及插入和删除方法的一般性思想：</p><p><img src="https://github.com/hxlpub/imgs/blob/master/insert_node.png?raw=true" alt="insert a node"></p><p><img src="https://github.com/hxlpub/imgs/blob/master/remove_node.png?raw=true" alt="rm a node"></p><p>当删除最后一项时，需要找到最后一项前面的项，才能去更新其next 链接到NULL，需要O(N-i-1),如果双向链表则只需要O(1)</p><p><img src="https://github.com/hxlpub/imgs/blob/master/double__linkednode.png?raw=true" alt="double linked nodes"></p></li></ul></li><li><h5 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h5></li><li><h5 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h5></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>参考</p><p>本文参考自《数据结构与算法分析C++描述》第三版，作者Mark Allen Weiss</p><ol><li><h5 id="表"><a href="#表" class="headerlink" title="表"></a>表</h5><p>1)链表可以解决什么问题？其一般思想是？</p><ul><li><p>表的数组实现带来的问题</p><p>数组实现printList线性时间，findKth 常数时间，但插入和删除操作在整个表中发生时，时间开销最坏的情况是线性的O(N)，数组就不合适。</p></li><li><p>链表一般思想</p><p>为避免插入和删除带来的线性开销，允许表可以不连续存储，否则表的部分或全部都要整体移动。</p><p>下图表示了链表的一般性思想：</p><p><img src="https://github.com/hxlpub/imgs/blob/master/image_20220502111042397.png?raw=true" alt="一个链表"></p><p>以及插入和删除方法的一般性思想：</p><p><img src="https://github.com/hxlpub/imgs/blob/master/insert_node.png?raw=true" alt="insert a node"></p><p><img src="https://github.com/hxlpub/imgs/blob/master/remove_node.png?raw=true" alt="rm a node"></p><p>当删除最后一项时，需要找到最后一项前面的项，才能去更新其next 链接到NULL，需要O(N-1),如果双向链表则只需要O(1)</p><p><img src="https://github.com/hxlpub/imgs/blob/master/double__linkednode.png?raw=true" alt="double linked nodes"></p></li></ul></li><li><h5 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h5></li><li><h5 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h5></li></ol>]]></content>
     
     
       
@@ -392,6 +392,23 @@
   </entry>
   
   <entry>
+    <title>golang之编码规范</title>
+    <link href="https://hxlpub.github.io/2022/01/09/go_base_coding_rule/"/>
+    <id>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</id>
+    <published>2022-01-09T04:47:30.000Z</published>
+    <updated>2022-03-26T09:06:21.612Z</updated>
+    
+    
+    
+    
+    <category term="golang" scheme="https://hxlpub.github.io/categories/golang/"/>
+    
+    
+    <category term="golang" scheme="https://hxlpub.github.io/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
     <title>golang之必知必会</title>
     <link href="https://hxlpub.github.io/2022/01/09/go_base/"/>
     <id>https://hxlpub.github.io/2022/01/09/go_base/</id>
@@ -408,23 +425,6 @@
 &lt;li&gt;&lt;p&gt;特色&lt;/p&gt;
 &lt;ul</summary>
       
-    
-    
-    
-    <category term="golang" scheme="https://hxlpub.github.io/categories/golang/"/>
-    
-    
-    <category term="golang" scheme="https://hxlpub.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>golang之编码规范</title>
-    <link href="https://hxlpub.github.io/2022/01/09/go_base_coding_rule/"/>
-    <id>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</id>
-    <published>2022-01-09T04:47:30.000Z</published>
-    <updated>2022-03-26T09:06:21.612Z</updated>
-    
     
     
     
