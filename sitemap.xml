@@ -492,16 +492,6 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/repository/index.html</loc> 
-    
-    
-    <lastmod>2022-03-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hxlpub.github.io/about/index.html</loc> 
     
     
@@ -521,6 +511,16 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://hxlpub.github.io/repository/index.html</loc> 
+    
+    
+    <lastmod>2022-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://hxlpub.github.io/</loc>
@@ -531,21 +531,7 @@
 
   
   <url>
-    <loc>https://hxlpub.github.io/tags/codes/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hxlpub.github.io/tags/Makefile/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hxlpub.github.io/tags/c/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -559,7 +545,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/python/</loc>
+    <loc>https://hxlpub.github.io/tags/codes/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/tags/c/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -574,6 +567,13 @@
   
   <url>
     <loc>https://hxlpub.github.io/tags/cplusplus/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/tags/python/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -685,14 +685,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/love/</loc>
+    <loc>https://hxlpub.github.io/tags/ML/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/tags/ML/</loc>
+    <loc>https://hxlpub.github.io/tags/love/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -736,21 +736,7 @@
 
   
   <url>
-    <loc>https://hxlpub.github.io/categories/codes/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hxlpub.github.io/categories/%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hxlpub.github.io/categories/c/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -764,7 +750,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/Python/</loc>
+    <loc>https://hxlpub.github.io/categories/codes/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/categories/c/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -772,6 +765,13 @@
   
   <url>
     <loc>https://hxlpub.github.io/categories/cplusplus/</loc>
+    <lastmod>2022-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hxlpub.github.io/categories/Python/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -841,14 +841,14 @@
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/startup/</loc>
+    <loc>https://hxlpub.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hxlpub.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://hxlpub.github.io/categories/startup/</loc>
     <lastmod>2022-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
