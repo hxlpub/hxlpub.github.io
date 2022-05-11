@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
-    <lastmod>2022-05-02</lastmod>
+    <loc>https://hxlpub.github.io/2022/05/10/git-problemsshooting/</loc>
+    <lastmod>2022-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/git_tools/</loc>
+    <lastmod>2022-05-10</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/23/c/</loc>
+    <lastmod>2022-05-06</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
+    <lastmod>2022-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
+    <lastmod>2022-05-03</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/04/30/typora-activate/</loc>
     <lastmod>2022-04-30</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2022/04/23/c-new/</loc>
-    <lastmod>2022-04-23</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/23/c/</loc>
-    <lastmod>2022-04-23</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
     <lastmod>2022-04-17</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
-    <lastmod>2022-04-16</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/01/09/go_base/</loc>
@@ -102,10 +106,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/git_tools/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
