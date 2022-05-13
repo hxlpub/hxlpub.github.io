@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://hxlpub.github.io/2022/05/10/git-problemsshooting/</loc>
@@ -338,14 +338,14 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/repository/index.html</loc>
+    <loc>http://hxlpub.github.io/categories/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
     
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/categories/index.html</loc>
+    <loc>http://hxlpub.github.io/repository/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
     
