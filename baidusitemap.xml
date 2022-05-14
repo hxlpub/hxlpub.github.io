@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2022/04/30/typora-activate/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_mini_system_config/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_command_tools/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/03/ifname/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/15/go_tcp/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_packages/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/01/09/go_base/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/01/define-a-systemd-service/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/23/c/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/compile_debug/</loc>
+    <lastmod>2022-05-14</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
@@ -13,55 +93,15 @@
     <lastmod>2022-05-10</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-05-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/23/c/</loc>
-    <lastmod>2022-05-06</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
     <lastmod>2022-05-03</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
-    <lastmod>2022-05-03</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/30/typora-activate/</loc>
-    <lastmod>2022-04-30</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
-    <lastmod>2022-04-17</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/01/09/go_base/</loc>
-    <lastmod>2022-04-16</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/04/06/python-common-problems/</loc>
     <lastmod>2022-04-09</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
-    <lastmod>2022-04-06</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/03/ifname/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2022/03/29/python-newer/</loc>
-    <lastmod>2022-04-03</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
-    <lastmod>2022-04-03</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/01/define-a-systemd-service/</loc>
     <lastmod>2022-04-03</lastmod>
   </url>
   <url>
@@ -93,19 +133,7 @@
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_command_tools/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
@@ -141,27 +169,7 @@
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_mini_system_config/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_ko/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/15/go_tcp/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_packages/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
@@ -169,15 +177,7 @@
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/database_pg/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/compile_debug/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
 </urlset> 
