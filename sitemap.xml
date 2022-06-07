@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
+    
+    <lastmod>2022-06-07T01:07:06.289Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
+    
+    <lastmod>2022-06-07T00:36:04.805Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
+    
+    <lastmod>2022-05-22T13:13:56.334Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/15/go_tcp/</loc>
+    
+    <lastmod>2022-05-14T09:37:55.375Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_compile/</loc>
+    
+    <lastmod>2022-05-14T09:37:21.896Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
+    
+    <lastmod>2022-05-14T09:37:12.615Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
+    
+    <lastmod>2022-05-14T09:37:08.612Z</lastmod>
+    
+  </url>    
+  
+  <url>
     <loc>http://hxlpub.github.io/2022/05/14/build-distributed-objstor-system-frame-from-zero/</loc>
     
     <lastmod>2022-05-14T04:21:26.771Z</lastmod>
@@ -37,23 +86,9 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
-    
-    <lastmod>2022-05-14T03:41:29.292Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/2021/09/14/Python/</loc>
     
     <lastmod>2022-05-14T03:41:15.291Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
-    
-    <lastmod>2022-05-14T03:41:03.160Z</lastmod>
     
   </url>    
   
@@ -100,23 +135,9 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2021/09/15/go_tcp/</loc>
-    
-    <lastmod>2022-05-14T02:32:58.428Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/2021/09/13/go_packages/</loc>
     
     <lastmod>2022-05-14T02:32:21.973Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
-    
-    <lastmod>2022-05-14T02:32:08.022Z</lastmod>
     
   </url>    
   
@@ -131,13 +152,6 @@
     <loc>http://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
     
     <lastmod>2022-05-14T02:31:49.532Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
-    
-    <lastmod>2022-05-14T02:31:19.383Z</lastmod>
     
   </url>    
   
@@ -317,13 +331,6 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_compile/</loc>
-    
-    <lastmod>2022-03-26T08:25:20.274Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/books/index.html</loc>
     
     <lastmod>2022-03-13T09:28:04.918Z</lastmod>
@@ -338,13 +345,6 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/repository/index.html</loc>
-    
-    <lastmod>2022-03-12T13:59:18.462Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/about/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
@@ -353,6 +353,13 @@
   
   <url>
     <loc>http://hxlpub.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-03-12T13:59:18.462Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/repository/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
     
