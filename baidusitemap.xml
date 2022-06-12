@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
-    <lastmod>2022-06-07</lastmod>
+    <loc>https://hxlpub.github.io/2022/04/23/c_new/</loc>
+    <lastmod>2022-06-12</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2022/04/23/c_new/</loc>
+    <loc>https://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/08/hpc_lustre/</loc>
+    <lastmod>2022-06-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/08/storage_basics/</loc>
+    <lastmod>2022-06-08</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
     <lastmod>2022-06-07</lastmod>
   </url>
   <url>
@@ -30,10 +50,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/05/14/build-distributed-objstor-system-frame-from-zero/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
@@ -111,10 +127,6 @@
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/git_tools/</loc>
     <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
-    <lastmod>2022-05-03</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/04/06/python-common-problems/</loc>

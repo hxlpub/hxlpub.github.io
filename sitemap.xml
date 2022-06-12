@@ -2,16 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
+    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
     
-    <lastmod>2022-06-07T01:07:06.289Z</lastmod>
+    <lastmod>2022-06-12T08:12:34.184Z</lastmod>
     
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
+    <loc>http://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
     
-    <lastmod>2022-06-07T00:36:04.805Z</lastmod>
+    <lastmod>2022-06-12T08:11:43.183Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    
+    <lastmod>2022-06-12T08:11:39.164Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/16/1000codes/</loc>
+    
+    <lastmod>2022-06-12T03:11:28.742Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/08/hpc_lustre/</loc>
+    
+    <lastmod>2022-06-10T03:10:22.527Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/08/storage_basics/</loc>
+    
+    <lastmod>2022-06-08T07:34:39.212Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
+    
+    <lastmod>2022-06-07T01:07:06.289Z</lastmod>
     
   </url>    
   
@@ -54,13 +89,6 @@
     <loc>http://hxlpub.github.io/2022/05/14/build-distributed-objstor-system-frame-from-zero/</loc>
     
     <lastmod>2022-05-14T04:21:26.771Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/17/daos_2.0/</loc>
-    
-    <lastmod>2022-05-14T04:18:52.311Z</lastmod>
     
   </url>    
   
@@ -194,13 +222,6 @@
     <loc>http://hxlpub.github.io/2021/09/14/git_tools/</loc>
     
     <lastmod>2022-05-10T14:21:09.623Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/16/1000codes/</loc>
-    
-    <lastmod>2022-05-03T04:08:29.389Z</lastmod>
     
   </url>    
   
