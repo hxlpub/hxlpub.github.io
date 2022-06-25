@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2021/09/14/debug/</loc>
+    <lastmod>2022-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_om/</loc>
+    <lastmod>2022-06-23</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
+    <lastmod>2022-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
+    <lastmod>2022-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
+    <lastmod>2022-06-13</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_shell/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2022/04/23/c_new/</loc>
     <lastmod>2022-06-12</lastmod>
   </url>
@@ -61,10 +89,6 @@
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
@@ -78,10 +102,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_command_tools/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
@@ -110,10 +130,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/compile_debug/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
@@ -154,10 +170,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_sites/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_shell/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
