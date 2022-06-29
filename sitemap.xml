@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hxlpub.github.io/2021/09/14/debug/</loc>
+    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
     
-    <lastmod>2022-06-25T01:28:07.872Z</lastmod>
+    <lastmod>2022-06-29T07:36:47.783Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
+    
+    <lastmod>2022-06-26T11:47:01.219Z</lastmod>
     
   </url>    
   
   <url>
     <loc>http://hxlpub.github.io/2021/09/14/linux_om/</loc>
     
-    <lastmod>2022-06-23T14:21:04.738Z</lastmod>
+    <lastmod>2022-06-25T13:21:34.305Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    
+    <lastmod>2022-06-25T13:00:15.239Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/debug/</loc>
+    
+    <lastmod>2022-06-25T05:26:31.893Z</lastmod>
     
   </url>    
   
@@ -327,13 +348,6 @@
     <loc>http://hxlpub.github.io/2021/09/14/cv/</loc>
     
     <lastmod>2022-03-26T09:01:13.127Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
-    
-    <lastmod>2022-03-26T09:00:17.844Z</lastmod>
     
   </url>    
   

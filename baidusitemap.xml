@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/debug/</loc>
-    <lastmod>2022-06-25</lastmod>
+    <loc>https://hxlpub.github.io/2021/09/14/compiler/</loc>
+    <lastmod>2022-06-29</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
+    <lastmod>2022-06-26</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/linux_om/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    <lastmod>2022-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/debug/</loc>
+    <lastmod>2022-06-25</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
@@ -186,10 +198,6 @@
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/cv/</loc>
-    <lastmod>2022-03-26</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/compiler/</loc>
     <lastmod>2022-03-26</lastmod>
   </url>
   <url>
