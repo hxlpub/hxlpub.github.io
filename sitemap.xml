@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
+    <loc>http://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
     
-    <lastmod>2022-06-29T07:36:47.783Z</lastmod>
+    <lastmod>2022-06-30T12:14:38.159Z</lastmod>
     
   </url>    
   
   <url>
     <loc>http://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
     
-    <lastmod>2022-06-26T11:47:01.219Z</lastmod>
+    <lastmod>2022-06-30T12:14:11.503Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
+    
+    <lastmod>2022-06-30T06:15:23.107Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
+    
+    <lastmod>2022-06-29T14:03:49.674Z</lastmod>
     
   </url>    
   
   <url>
     <loc>http://hxlpub.github.io/2021/09/14/linux_om/</loc>
     
-    <lastmod>2022-06-25T13:21:34.305Z</lastmod>
+    <lastmod>2022-06-29T12:26:24.395Z</lastmod>
     
   </url>    
   
@@ -47,13 +61,6 @@
     <loc>http://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
     
     <lastmod>2022-06-18T12:42:12.509Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
-    
-    <lastmod>2022-06-13T06:38:59.360Z</lastmod>
     
   </url>    
   
@@ -201,13 +208,6 @@
     <loc>http://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
     
     <lastmod>2022-05-14T02:34:23.771Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
-    
-    <lastmod>2022-05-14T02:33:37.878Z</lastmod>
     
   </url>    
   
