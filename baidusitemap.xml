@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <loc>https://hxlpub.github.io/2022/12/03/build-distributed-objstor-system-frame-from-zero/</loc>
+    <lastmod>2022-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/05/14/daos/</loc>
+    <lastmod>2022-08-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
+    <lastmod>2022-08-26</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/debug/</loc>
+    <lastmod>2022-08-03</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/linux_shell/</loc>
+    <lastmod>2022-07-25</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
+    <lastmod>2022-07-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   <url>
@@ -25,20 +45,12 @@
     <lastmod>2022-06-25</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/debug/</loc>
-    <lastmod>2022-06-25</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
     <lastmod>2022-06-19</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
     <lastmod>2022-06-18</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/linux_shell/</loc>
-    <lastmod>2022-06-12</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
@@ -93,19 +105,11 @@
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2022/05/14/build-distributed-objstor-system-frame-from-zero/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/09/14/database_pg/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/14/database_redis/</loc>
-    <lastmod>2022-05-14</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/09/14/Python/</loc>
     <lastmod>2022-05-14</lastmod>
   </url>
   <url>
