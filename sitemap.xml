@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxlpub.github.io/home/index.html</loc>
+    
+    <lastmod>2023-05-27T10:31:14.218Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-05-27T10:23:38.465Z</lastmod>
+    
+  </url>    
+  
+  <url>
     <loc>http://hxlpub.github.io/2022/12/03/build-distributed-objstor-system-frame-from-zero/</loc>
     
     <lastmod>2022-12-10T02:29:36.187Z</lastmod>
@@ -408,7 +422,7 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/categories/index.html</loc>
+    <loc>http://hxlpub.github.io/about/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
     
@@ -416,13 +430,6 @@
   
   <url>
     <loc>http://hxlpub.github.io/repository/index.html</loc>
-    
-    <lastmod>2022-03-12T13:59:18.462Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/about/index.html</loc>
     
     <lastmod>2022-03-12T13:59:18.462Z</lastmod>
     
