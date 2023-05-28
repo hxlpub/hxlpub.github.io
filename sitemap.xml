@@ -2,51 +2,366 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <loc>http://hxlpub.github.io/2022/04/16/1000codes/</loc>
     
-    <lastmod>2023-05-28T11:04:01.215Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
-    
-    <lastmod>2023-05-28T10:28:40.521Z</lastmod>
+    <lastmod>2023-05-28T11:36:43.403Z</lastmod>
     
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    <loc>http://hxlpub.github.io/2022/04/30/typora-activate/</loc>
     
-    <lastmod>2023-05-28T10:26:55.100Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
-    
-    <lastmod>2023-05-28T10:26:44.880Z</lastmod>
+    <lastmod>2023-05-28T11:36:37.209Z</lastmod>
     
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    <loc>http://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
     
-    <lastmod>2023-05-28T10:26:08.345Z</lastmod>
+    <lastmod>2023-05-28T11:36:16.601Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/vscode_extensions/</loc>
+    
+    <lastmod>2023-05-28T11:35:20.599Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/01/13/system_design_thinking/</loc>
+    
+    <lastmod>2023-05-28T11:30:41.589Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/08/storage_basics/</loc>
+    
+    <lastmod>2023-05-28T11:30:22.914Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/11/09/Makefile/</loc>
+    
+    <lastmod>2023-05-28T11:29:43.030Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/machine-learning/</loc>
+    
+    <lastmod>2023-05-28T11:29:26.293Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/12/love/</loc>
+    
+    <lastmod>2023-05-28T11:29:17.079Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_soft_manage_FAq/</loc>
+    
+    <lastmod>2023-05-28T11:28:33.049Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_sites/</loc>
+    
+    <lastmod>2023-05-28T11:28:19.802Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_shell/</loc>
+    
+    <lastmod>2023-05-28T11:27:55.742Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_server_performance_analysis/</loc>
+    
+    <lastmod>2023-05-28T11:27:42.634Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_om/</loc>
+    
+    <lastmod>2023-05-28T11:27:24.464Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_mini_system_config/</loc>
+    
+    <lastmod>2023-05-28T11:26:58.593Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_ko/</loc>
+    
+    <lastmod>2023-05-28T11:26:51.166Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
+    
+    <lastmod>2023-05-28T11:26:42.383Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/linux/</loc>
+    
+    <lastmod>2023-05-28T11:26:26.923Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
+    
+    <lastmod>2023-05-28T11:26:10.844Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
+    
+    <lastmod>2023-05-28T11:25:59.265Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
+    
+    <lastmod>2023-05-28T11:25:39.489Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/03/ifname/</loc>
+    
+    <lastmod>2023-05-28T11:22:53.034Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/08/hpc_lustre/</loc>
+    
+    <lastmod>2023-05-28T11:22:34.779Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
+    
+    <lastmod>2023-05-28T11:22:17.853Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/git_tools/</loc>
+    
+    <lastmod>2023-05-28T11:21:13.440Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/05/10/git-problemsshooting/</loc>
+    
+    <lastmod>2023-05-28T11:20:39.417Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/01/define-a-systemd-service/</loc>
+    
+    <lastmod>2023-05-28T11:19:01.941Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/deep-learning/</loc>
+    
+    <lastmod>2023-05-28T11:18:35.939Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/debug/</loc>
+    
+    <lastmod>2023-05-28T11:18:21.459Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
+    
+    <lastmod>2023-05-28T11:18:04.123Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/database_redis/</loc>
+    
+    <lastmod>2023-05-28T11:16:49.582Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/database_pg/</loc>
+    
+    <lastmod>2023-05-28T11:16:11.880Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/05/14/daos/</loc>
+    
+    <lastmod>2023-05-28T11:15:13.763Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/cv/</loc>
+    
+    <lastmod>2023-05-28T11:13:04.555Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
+    
+    <lastmod>2023-05-28T11:12:39.998Z</lastmod>
     
   </url>    
   
   <url>
     <loc>http://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
     
-    <lastmod>2023-05-28T10:25:16.639Z</lastmod>
+    <lastmod>2023-05-28T11:12:11.645Z</lastmod>
     
   </url>    
   
   <url>
     <loc>http://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
     
-    <lastmod>2023-05-28T10:25:13.504Z</lastmod>
+    <lastmod>2023-05-28T11:12:08.384Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    
+    <lastmod>2023-05-28T11:12:05.071Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
+    
+    <lastmod>2023-05-28T11:11:57.542Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
+    
+    <lastmod>2023-05-28T11:11:52.930Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    
+    <lastmod>2023-05-28T11:11:47.991Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/15/go_tcp/</loc>
+    
+    <lastmod>2023-05-28T11:11:19.644Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_packages/</loc>
+    
+    <lastmod>2023-05-28T11:11:03.776Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
+    
+    <lastmod>2023-05-28T11:10:43.765Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
+    
+    <lastmod>2023-05-28T11:10:22.188Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
+    
+    <lastmod>2023-05-28T11:09:58.494Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/13/go_compile/</loc>
+    
+    <lastmod>2023-05-28T11:09:44.756Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
+    
+    <lastmod>2023-05-28T11:09:10.468Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
+    
+    <lastmod>2023-05-28T11:08:56.965Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/Python/</loc>
+    
+    <lastmod>2023-05-28T11:08:25.748Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/04/06/python-common-problems/</loc>
+    
+    <lastmod>2023-05-28T11:07:51.744Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    
+    <lastmod>2023-05-28T11:04:01.215Z</lastmod>
     
   </url>    
   
@@ -86,237 +401,6 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/05/14/daos/</loc>
-    
-    <lastmod>2022-08-26T08:53:03.496Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/Python/</loc>
-    
-    <lastmod>2022-08-26T08:51:05.795Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/debug/</loc>
-    
-    <lastmod>2022-08-03T06:37:54.251Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_shell/</loc>
-    
-    <lastmod>2022-07-25T08:16:45.419Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/25/linux-to-be-rpms-maker/</loc>
-    
-    <lastmod>2022-07-09T08:34:09.452Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/13/linux-coredump/</loc>
-    
-    <lastmod>2022-06-30T12:14:38.159Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/03/linux-shortcut/</loc>
-    
-    <lastmod>2022-06-30T06:15:23.107Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/compiler/</loc>
-    
-    <lastmod>2022-06-29T14:03:49.674Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_om/</loc>
-    
-    <lastmod>2022-06-29T12:26:24.395Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
-    
-    <lastmod>2022-06-19T01:52:02.600Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/16/1000codes/</loc>
-    
-    <lastmod>2022-06-12T03:11:28.742Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/08/hpc_lustre/</loc>
-    
-    <lastmod>2022-06-10T03:10:22.527Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/08/storage_basics/</loc>
-    
-    <lastmod>2022-06-08T07:34:39.212Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
-    
-    <lastmod>2022-05-22T13:13:56.334Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/15/go_tcp/</loc>
-    
-    <lastmod>2022-05-14T09:37:55.375Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_compile/</loc>
-    
-    <lastmod>2022-05-14T09:37:21.896Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
-    
-    <lastmod>2022-05-14T09:37:12.615Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
-    
-    <lastmod>2022-05-14T09:37:08.612Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/database_pg/</loc>
-    
-    <lastmod>2022-05-14T03:41:56.034Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/database_redis/</loc>
-    
-    <lastmod>2022-05-14T03:41:43.650Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/30/typora-activate/</loc>
-    
-    <lastmod>2022-05-14T02:36:34.233Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_mini_system_config/</loc>
-    
-    <lastmod>2022-05-14T02:34:37.451Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_kernel/</loc>
-    
-    <lastmod>2022-05-14T02:34:23.771Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/03/ifname/</loc>
-    
-    <lastmod>2022-05-14T02:33:28.646Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_packages/</loc>
-    
-    <lastmod>2022-05-14T02:32:21.973Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_func_builtin/</loc>
-    
-    <lastmod>2022-05-14T02:31:56.974Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/13/go_fan-out/</loc>
-    
-    <lastmod>2022-05-14T02:31:49.532Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/01/define-a-systemd-service/</loc>
-    
-    <lastmod>2022-05-14T02:30:32.936Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/28/datastructures_tutorial/</loc>
-    
-    <lastmod>2022-05-14T02:29:23.816Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/15/hexo_build_blog/</loc>
-    
-    <lastmod>2022-05-14T02:23:59.547Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/05/10/git-problemsshooting/</loc>
-    
-    <lastmod>2022-05-11T07:51:31.455Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/git_tools/</loc>
-    
-    <lastmod>2022-05-10T14:21:09.623Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/04/06/python-common-problems/</loc>
-    
-    <lastmod>2022-04-09T12:36:33.876Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/2022/03/29/python-newer/</loc>
     
     <lastmod>2022-04-03T10:15:18.190Z</lastmod>
@@ -324,93 +408,9 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2021/09/14/vscode_extensions/</loc>
-    
-    <lastmod>2022-03-26T09:12:24.690Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/11/09/Makefile/</loc>
-    
-    <lastmod>2022-03-26T09:11:58.775Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/machine-learning/</loc>
-    
-    <lastmod>2022-03-26T09:11:36.082Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_soft_manage_FAq/</loc>
-    
-    <lastmod>2022-03-26T09:11:23.177Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_sites/</loc>
-    
-    <lastmod>2022-03-26T09:10:59.432Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux/</loc>
-    
-    <lastmod>2022-03-26T09:06:44.984Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/deep-learning/</loc>
-    
-    <lastmod>2022-03-26T09:02:10.564Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/cv/</loc>
-    
-    <lastmod>2022-03-26T09:01:13.127Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/01/13/system_design_thinking/</loc>
-    
-    <lastmod>2022-03-26T08:51:57.827Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/2022/01/15/newpc/</loc>
     
     <lastmod>2022-03-26T08:50:54.949Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/12/love/</loc>
-    
-    <lastmod>2022-03-26T08:48:12.204Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_server_performance_analysis/</loc>
-    
-    <lastmod>2022-03-26T08:46:12.343Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/linux_ko/</loc>
-    
-    <lastmod>2022-03-26T08:45:12.487Z</lastmod>
     
   </url>    
   
