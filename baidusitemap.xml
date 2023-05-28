@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hxlpub.github.io/2021/09/14/algorithm/</loc>
+    <loc>https://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/04/23/c_new/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
     <lastmod>2023-05-28</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/12/03/build-distributed-objstor-system-frame-from-zero/</loc>
-    <lastmod>2022-12-10</lastmod>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2021/09/14/algorithm/</loc>
+    <lastmod>2023-05-28</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/05/14/daos/</loc>
@@ -45,31 +69,11 @@
     <lastmod>2022-06-29</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2022/06/25/c-pointer/</loc>
-    <lastmod>2022-06-25</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
     <lastmod>2022-06-19</lastmod>
   </url>
   <url>
-    <loc>https://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
-    <lastmod>2022-06-18</lastmod>
-  </url>
-  <url>
     <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-06-12</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/04/23/c_new/</loc>
-    <lastmod>2022-06-12</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
-    <lastmod>2022-06-12</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
     <lastmod>2022-06-12</lastmod>
   </url>
   <url>
@@ -83,10 +87,6 @@
   <url>
     <loc>https://hxlpub.github.io/2022/06/08/storage_basics/</loc>
     <lastmod>2022-06-08</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2022/06/07/c-funcs-malloc-free/</loc>
-    <lastmod>2022-06-07</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2021/09/13/go_import_rules/</loc>
