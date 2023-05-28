@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
+    <lastmod>2023-05-28</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2022/06/12/c_stanardlib_func_common/</loc>
     <lastmod>2023-05-28</lastmod>
   </url>
@@ -71,10 +75,6 @@
   <url>
     <loc>https://hxlpub.github.io/2022/06/18/to-use-xmind/</loc>
     <lastmod>2022-06-19</lastmod>
-  </url>
-  <url>
-    <loc>https://hxlpub.github.io/2021/11/06/cplusplus/</loc>
-    <lastmod>2022-06-12</lastmod>
   </url>
   <url>
     <loc>https://hxlpub.github.io/2022/04/16/1000codes/</loc>
