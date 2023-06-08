@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
+    
+    <lastmod>2023-06-08T00:08:17.684Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
+    
+    <lastmod>2023-06-08T00:08:05.891Z</lastmod>
+    
+  </url>    
+  
+  <url>
     <loc>http://hxlpub.github.io/2022/04/16/1000codes/</loc>
     
     <lastmod>2023-05-28T12:46:40.116Z</lastmod>
@@ -348,20 +362,6 @@
     <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
     
     <lastmod>2023-05-28T12:44:19.365Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/12/c-unix-apis/</loc>
-    
-    <lastmod>2023-05-28T12:44:16.191Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
-    
-    <lastmod>2023-05-28T12:44:12.374Z</lastmod>
     
   </url>    
   
