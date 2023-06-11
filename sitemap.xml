@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
+    
+    <lastmod>2023-06-11T08:15:01.161Z</lastmod>
+    
+  </url>    
+  
+  <url>
+    <loc>http://hxlpub.github.io/2021/09/14/algorithm/</loc>
+    
+    <lastmod>2023-06-10T08:44:14.370Z</lastmod>
+    
+  </url>    
+  
+  <url>
     <loc>http://hxlpub.github.io/2022/06/25/c-pointer/</loc>
     
     <lastmod>2023-06-08T00:08:17.684Z</lastmod>
@@ -359,13 +373,6 @@
   </url>    
   
   <url>
-    <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
-    
-    <lastmod>2023-05-28T12:44:19.365Z</lastmod>
-    
-  </url>    
-  
-  <url>
     <loc>http://hxlpub.github.io/2022/06/18/c-learn-roadmap/</loc>
     
     <lastmod>2023-05-28T12:44:09.189Z</lastmod>
@@ -383,13 +390,6 @@
     <loc>http://hxlpub.github.io/2022/12/03/build-distributed-objstor-system-frame-from-zero/</loc>
     
     <lastmod>2023-05-28T12:44:02.908Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2021/09/14/algorithm/</loc>
-    
-    <lastmod>2023-05-28T12:42:56.272Z</lastmod>
     
   </url>    
   
