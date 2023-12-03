@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
+    
+    <lastmod>2023-12-03T08:51:35.192Z</lastmod>
+    
+  </url>    
+  
+  <url>
     <loc>http://hxlpub.github.io/2022/04/23/c_new/</loc>
     
     <lastmod>2023-06-11T08:37:38.016Z</lastmod>
@@ -271,13 +278,6 @@
     <loc>http://hxlpub.github.io/2022/01/09/go_base_coding_rule/</loc>
     
     <lastmod>2023-05-28T12:45:03.095Z</lastmod>
-    
-  </url>    
-  
-  <url>
-    <loc>http://hxlpub.github.io/2022/01/09/go_base/</loc>
-    
-    <lastmod>2023-05-28T12:45:00.636Z</lastmod>
     
   </url>    
   
