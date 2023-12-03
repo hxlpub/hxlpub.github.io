@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hxlpub.github.io/2023/12/03/go-sum-mod-gen/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://hxlpub.github.io/2023/12/03/go_sum_mod_gen_update/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
     <loc>https://hxlpub.github.io/2023/12/03/go_base/</loc>
     <lastmod>2023-12-03</lastmod>
   </url>
